@@ -102,3 +102,4 @@ input.onButtonPressed(Button.B, function () {
             `)
     }
 })
+basic.showString("A ou B ?")
