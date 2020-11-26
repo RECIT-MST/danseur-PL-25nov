@@ -77,6 +77,9 @@ input.onButtonPressed(Button.AB, function () {
             `)
     }
 })
+input.onSound(DetectedSound.Loud, function () {
+    basic.showString("Fort!!!!")
+})
 input.onButtonPressed(Button.B, function () {
     for (let index = 0; index < 5; index++) {
         basic.showLeds(`
