@@ -102,4 +102,7 @@ input.onButtonPressed(Button.B, function () {
             `)
     }
 })
+input.onGesture(Gesture.Shake, function () {
+    basic.showIcon(IconNames.Heart)
+})
 basic.showString("A ou B ?")
